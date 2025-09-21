@@ -1,0 +1,35 @@
+/* corpo da pagina / design */
+body {
+  font-family: Arial, sans-serif; 
+  /* fonte dos textos */
+  text-align: center;
+  /* alinhamento do texto */
+  background:  rgb(2, 9, 75);
+  /* a cor de fundo da pagina */
+  color: aliceblue;
+  padding: 20px;
+  /* define a distançia da borda, no caso 20 pixel */
+}
+#creditos {
+  position: absolute;
+  top: 820px;
+  height: 200px;
+  width: 600px;
+  align-items: center;
+  padding: 60px;
+
+}
+
+#nomes {
+  gap: 10px;
+  word-spacing: 30px;
+  padding: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+/* cria um espaço entre os nomes  */
+a {
+  color:orange;
+  text-decoration: none;
+}
+/* define a cor dos nomes do desenvolvedores */
